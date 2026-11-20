@@ -78,11 +78,12 @@ This is a GitOps repository of a Kargo Helm example for getting started.
    in the `kargo-helm` Project.
 
    ```shell
-   kargo create credentials github-creds \
-     --project kargo-helm \
-     --git \
-     --username <yourgithubusername> \
-     --repo-url https://github.com/<yourgithubusername>/kargo-helm.git
+   kargo create repo-credentials github-creds \
+  --project kargo-helm \
+  --git \
+  --username janusz08 \
+  --repo-url https://github.com/janusz08/kargo-helm.git
+
    ```
 
    As part of the promotion process, Kargo requires privileges to commit changes
