@@ -110,7 +110,7 @@ To simulate a release, simply retag an image with a newer semantic version. e.g.
 ```shell
 docker buildx imagetools create \
   ghcr.io/akuity/guestbook:latest \
-  -t ghcr.io/<yourgithubusername>/guestbook:v0.0.2
+  -t ghcr.io/janusz08/guestbook:v0.0.2
 ```
 
 Then refresh the Warehouse in the UI to detect the new Freight.
